@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tag Cloud
+title: Tags
 ---
 <ul class="tag-cloud">
 {% assign sorted_tags = (site.tags | sort: 0) %}
