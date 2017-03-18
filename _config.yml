@@ -8,7 +8,7 @@ gems                : ["jekyll-paginate"]
 permalink:        pretty
 
 # Setup
-title:            ZhenZhou's Blog
+title:            Pang
 tagline:          'A Jekyll theme forks https://github.com/poole/hyde'
 description:      '技术.思考.生活'
 url:              http://zhenzhoupang.com
