@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Example content
+subtitle   : "介绍jekyll theme"
+tags : jekyll
 ---
 
 
