@@ -1,0 +1,16 @@
+<div class="pagination-post">
+  <div class="previous">
+    {% if page.previous.url %}
+      <a href="{{ page.previous.url }}">&laquo; Prev</a>
+    {% else %}
+      <span>&laquo; Prev</span>
+    {% endif %}
+  </div>
+  <div class="next">
+    {% if page.next.url %}
+      <a href="{{ page.next.url }}">Next &raquo;</a>
+    {% else %}
+      <span>Next &raquo;</span>
+    {% endif %}
+  </div>
+</div>
