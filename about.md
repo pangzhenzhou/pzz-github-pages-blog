@@ -4,7 +4,7 @@ title: About
 ---
 
 <p class="message">
-  老码农，兴趣广泛且多变。喜欢一切有意思的技术，哈尔滨人目前蜗居在北京。
+  80后，兴趣广泛且多变。喜欢一切有意思的技术，在 *后端架构，分布式系统，网络及并发编程* 及其相关领域略有实践。哈尔滨人目前蜗居在北京。
 </p>
 
 ## Work Experience
@@ -12,8 +12,6 @@ title: About
     * 2011年->至今 :  分布式存储架构，大数据系统，互联网后端，平台架构。
 
 ## Technology Stack
-####    在*后端架构，分布式系统，网络及并发编程*略有实践
-
     * Language : Java ，Golang
     * RDBMS    : MySQL
     * NoSQL    : MongoDB，LevelDB，Redis
