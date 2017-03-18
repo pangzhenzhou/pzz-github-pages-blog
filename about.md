@@ -3,13 +3,22 @@ layout: page
 title: About
 permalink: /about/
 ---
+## Keywords
+老码农，兴趣广泛且多变。喜欢一切有意思的技术，哈尔滨人目前蜗居在北京。
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+## Work Experience
+* 2011年以前企业软件——运营商支撑系统
+* 2011->至今 分布式存储架构，大数据系统，互联网后端，平台架构。
 
-You can find the source code for the Jekyll new theme at:
+## Technology Stack
+
+### 在以下领域略有实践：后端架构，分布式系统，网络及并发编程。
+
+* Language : Java ，Golang
+* RDBMS    : MySQL
+* NoSQL    : MongoDB，LevelDB，Redis
+* BigData  : Hadoop，Hive，HBase，Kafka，Zookeeper，Storm，Spark，Druid
+* Others   : JavaScript，TypeScript， AngularJs 1/2，SemanticUI
+
 {% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
