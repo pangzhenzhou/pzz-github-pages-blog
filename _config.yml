@@ -1,39 +1,26 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
 
-# Site settings
-title: ZhenZhou's Blog 
-email: hljpzz1982@163.com
-description: > # this means to ignore newlines until "baseurl:"
-  生活，思考，技术以及其他！
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.zhenzhoupang.com" # the base hostname & protocol for your site
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
 
-github_username:  pangzhenzhou
-google_analytic_id:
-disqus_name:
+# Setup
+title:            ZhenZhou's Blog
+tagline:          'A Jekyll theme forks https://github.com/poole/hyde'
+description:      '技术.思考.生活'
+url:              http://zhenzhoupang.com
+baseurl:          /
 
-permalink: /:categories/:title
-paginate: 5
-paginate_path: /page/:num
+author:
+  name:           'pangzhenzhou'
+  #url:            https://twitter.com/mdo
 
-# jekyll seo tag settings
-logo: assets/images/example-image.png
-#twitter:
-#  username: jekyllrb
+paginate:         5
 
-# Build settings
-markdown: kramdown
-sass:
-  style: compressed
+# Custom vars
+version:          0.0.9
 
-gems:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-redirect-from
-  - jekyll-seo-tag
-  - jekyll-archives
+github:
+  repo:           https://github.com/pangzhenzhou
