@@ -25,3 +25,8 @@ version:          0.0.9
 
 github:
   repo:           https://github.com/pangzhenzhou
+gems:
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-mentions
+  - jekyll-sitemap
