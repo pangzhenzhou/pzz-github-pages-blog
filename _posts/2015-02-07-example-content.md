@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Example content
-subtitle  : "介绍jekyll theme"
+subtitle  : "转载自Bootstrap作者，介绍jekyll theme相关。"
 tags : jekyll
 ---
 
