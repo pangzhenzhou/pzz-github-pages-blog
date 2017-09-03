@@ -15,4 +15,4 @@ title: About
     * RDBMS    : MySQL
     * NoSQL    : MongoDB，LevelDB，Redis
     * BigData  : Hadoop，Hive，HBase，Kafka，Zookeeper，Storm，Spark，Druid
-    * Others   : JavaScript，TypeScript， AngularJs 1/2，SemanticUI
+    * Others   : JavaScript，TypeScript， AngularJs 1/2，Semantic UI
