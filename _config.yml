@@ -9,16 +9,20 @@ permalink:        pretty
 
 # Setup
 title:            Pang
-tagline:          'ZhenZhou Blog。后端，大数据and so on'
+tagline:          'A Jekyll theme forks https://github.com/poole/hyde'
 description:      '技术.思考.生活'
 url:              http://zhenzhoupang.com
 baseurl:          /
+
 author:
   name:           'pangzhenzhou'
   #url:            https://twitter.com/mdo
+
 paginate:         5
+
 # Custom vars
 version:          0.0.9
+
 github:
   repo:           https://github.com/pangzhenzhou
 gems:
