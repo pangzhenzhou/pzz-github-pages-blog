@@ -1,4 +1,6 @@
 # Dependencies
+baseurl:          /
+url:              http://zhenzhoupang.com
 markdown            : kramdown
 redcarpet:
   extensions        : ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks"]
@@ -11,8 +13,6 @@ permalink:        pretty
 title:            Pang
 tagline:          'A Jekyll theme forks https://github.com/poole/hyde'
 description:      '技术.思考.生活'
-url:              http://zhenzhoupang.com
-baseurl:          /
 
 author:
   name:           'pangzhenzhou'
