@@ -12,8 +12,7 @@ title:            Pang
 tagline:          'ZhenZhou Blog。后端，大数据and so on'
 description:      '技术.思考.生活'
 url:              http://zhenzhoupang.com
-baseurl: /
-
+baseurl:          '/'
 author:
   name:           'pangzhenzhou'
   #url:            https://twitter.com/mdo
