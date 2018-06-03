@@ -37,23 +37,23 @@ tags : RDBMS, TokuDB
    * 存储密度更高——TokuDB支持数据压缩，可以在建表的时候指定，带来的副作用就是cpu负载会更高一些，关于压缩：TokuDB 默认的块大小是4M,InnoDB 需要需要将压缩后的数据pad到固定大小的空间里。这多少会影响压缩的效果。
    * 支持在线加索引。
 2. 性能测试工具
-   * 在物理机交付时，一定要做用Fio做IO系统的性能测试，如果把Fio的各种参数搞明白，对Linux IO 就完全掌握了。可以覆盖到所有的文件访问方式
-   ----------
-   - sync：Basic read(2) or write(2) I/O. fseek(2) is used to position the I/O location.
-   - psync：Basic pread(2) or pwrite(2) I/O.
-   - vsync: Basic readv(2) or writev(2) I/O. Will emulate queuing by coalescing adjacents IOs into a single submission.
-   - libaio: Linux native asynchronous I/O.
-   - posixaio: glibc POSIX asynchronous I/O using aio_read(3) and aio_write(3).
-   - mmap: File is memory mapped with mmap(2) and data copied using memcpy(3).
-   - splice： splice(2) is used to transfer the data and vmsplice(2) to transfer data from user-space to the kernel.
-   - syslet-rw： Use the syslet system calls to make regular read/write asynchronous.
-   - sg：SCSI generic sg v3 I/O.
-   - net ： Transfer over the network. filename must be set appropriately to ‘host/port’ regardless of data direction. If receiving,only the port argument is used.
-   - netsplice： Like net, but uses splice(2) and vmsplice(2) to map data and send/receive.
+
+   *  在物理机交付时，一定要做用Fio做IO系统的性能测试，如果把Fio的各种参数搞明白，对Linux IO 就完全掌握了。可以覆盖到所有的文件访问方式:
+   >
+   >- sync：Basic read(2) or write(2) I/O. fseek(2) is used to > position the I/O location.
+   > - psync：Basic pread(2) or pwrite(2) I/O.
+   > - vsync: Basic readv(2) or writev(2) I/O. Will emulate queuing by coalescing adjacents IOs into a single submission.
+   > - libaio: Linux native asynchronous I/O.
+   > - posixaio: glibc POSIX asynchronous I/O using aio_read(3) and aio_write(3).
+   > - mmap: File is memory mapped with mmap(2) and data copied using memcpy(3).
+   > - splice： splice(2) is used to transfer the data and vmsplice(2) to transfer data from user-space to the kernel.
+   > - syslet-rw： Use the syslet system calls to make regular read/write asynchronous.
+   > - sg：SCSI generic sg v3 I/O.
+   > - net ： Transfer over the network. filename must be set appropriately to ‘host/port’ regardless of data direction. If receiving,only the port argument is used.
+   > - netsplice： Like net, but uses splice(2) and vmsplice(2) to map data and send/receive.
    guasi The GUASI I/O engine is the Generic Userspace Asynchronous Syscall Interface approach to asycnronous I/O.
 
-   ----------
-   * IO调度算法设置为[DeadLine](https://www.ibm.com/developerworks/cn/linux/l-lo-io-scheduler-optimize-performance/index.html)，即便是SSD盘也非常有必要，在测试过程中DeadLine比Cfq会有很大提升。可以在调整前后利用Fio做对比测试。
+   * 将系统的IO scheduler为[DeadLine](https://www.ibm.com/developerworks/cn/linux/l-lo-io-scheduler-optimize-performance/index.html)，即便是SSD盘也非常有必要，在测试过程中DeadLine比Cfq会有很大提升。可以在调整前后利用Fio做对比测试。
    * [TPCC MySQL](https://github.com/Percona-Lab/tpcc-mysql)
 
 3. [可调参数](https://www.percona.com/doc/percona-server/LATEST/tokudb/tokudb_variables.html)
