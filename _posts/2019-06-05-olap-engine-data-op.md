@@ -12,4 +12,4 @@ tags : 数据化运营体系, OLAP
 
 ##  OLAP PDF
 
-<a href="https://raw.githubusercontent.com/pangzhenzhou/pzz-github-pages-blog/gh-pages/public/pdf/columbus.pdf" target="_blank">ColumbusPDF</a>
+[columbus.pdf](https://raw.githubusercontent.com/pangzhenzhou/pzz-github-pages-blog/gh-pages/public/pdf/columbus.pdf)
